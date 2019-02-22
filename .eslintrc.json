@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "airbnb"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "no-console": "off",
+    "comma-dangle": "off",
+    "react/jsx-filename-extension": "off",
+    "linebreak-style": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off"
+  },
+  "settings": {
+    "import/resolver": [
+      "webpack",
+      "node"
+    ]
+  }
+}
