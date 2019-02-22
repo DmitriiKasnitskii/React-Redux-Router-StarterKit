@@ -2,8 +2,8 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'connected-react-router';
-import App from './App.jsx';
-import configureStore, { history } from './store/main.store';
+import configureStore, { history } from './_store/main.store';
+import App from './App';
 
 const store = configureStore({});
 
